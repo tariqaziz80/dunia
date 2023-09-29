@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+<head>
+<title>Page Title</title>
+<script>
+const arr = [1, 5, 8, 100,200];
+
+const findmaxmin=(arr)=>{
+let Max=arr[0];
+let Min=arr[0];
+console.log('max');
+console.log(Max);
+
+console.log('min');
+console.log(Min);
+for(i=0; i<arr.length; i++)
+{
+	if(arr[i]>Max){
+Max=arr[i];
+}else if(arr[i] < Min){ Min=arr[i]}
+}
+return {"Max:": Max, "Min:": Min};
+}
+
+console.log(findmaxmin(arr));
+</script>
+</head>
+<body>
+<div id="dvShow"></div>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>go toschool</p>
+<h2>Hello</h2>
+savigingthere
+</body>
+</html>
